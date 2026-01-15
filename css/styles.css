@@ -943,3 +943,24 @@ select optgroup{
   background-color: #0b1220;
   color: rgba(255,255,255,.92);
 }
+
+/* =========================
+   Brand SVG logo
+========================= */
+.brand__mark{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width: 170px;
+  height: 44px;
+  color: var(--accent);
+}
+.brand__logo{
+  width: 170px;
+  height: 44px;
+  display:block;
+}
+@media (max-width: 980px){
+  .brand__mark{ width: 140px; height: 38px; }
+  .brand__logo{ width: 140px; height: 38px; }
+}
